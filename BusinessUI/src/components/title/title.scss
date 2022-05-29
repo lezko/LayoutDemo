@@ -1,0 +1,13 @@
+.title {
+    font-family: "PT Serif", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3C3F3D;
+    @media (max-width: $md3) {
+        font-size: 25px;
+        line-height: 33px;
+    }
+}

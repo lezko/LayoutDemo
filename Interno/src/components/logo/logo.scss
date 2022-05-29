@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+    &__text {
+        font-family: "DM Serif Display", serif;
+        font-size: 34px;
+        line-height: 34px;
+        margin: 0 0 0 10px;
+    }
+    &__image {
+        width: 34px;
+        height: 34px;
+        img {
+            max-width: 100%;
+        }
+    }
+}

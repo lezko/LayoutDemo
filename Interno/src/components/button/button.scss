@@ -1,0 +1,25 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    height: 70px;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    padding: 0 70px 0 34px;
+    color: #fff;
+    transition: 0.3s;
+    &--dark {
+        background: #292F36 url("@img/icons/arrow_dark.svg") 90% center no-repeat;
+        &:hover {
+            background-color: #424957;
+        }
+    }
+    &--light {
+        background: #CDA274 url("@img/icons/arrow_light.svg") 90% center no-repeat;
+        &:hover {
+            background-color: #9a7b57;
+        }
+    }
+}
